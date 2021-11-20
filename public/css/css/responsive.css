@@ -1,0 +1,139 @@
+/*Responsive Breakpoints*/
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    header .top-header .ml-5{
+        margin-left: 0 !important;
+    }
+    header .top-header{
+        font-size: 12px;
+    }
+    .input-group{
+        flex-wrap: nowrap;
+    }
+    .navbar-brand{
+        margin-left: 25%;
+    }
+    #categoryArea .img-fluid{
+        width: 100%;
+    }
+    #categoryArea .container ul .sub-menu{
+        right: -260%;
+
+    }
+    #categoryArea .container ul .sub-menu{
+        height: 179%;
+    }
+    #serviceAria .d-xl-none>.row .position-div{
+        margin-left: 7%;
+    }
+    #serviceAria .d-xl-none .row:nth-child(2) .position-div{
+        margin-left: 0;
+    }
+    #individualProduct .col-sm-3 img{
+        width: 100%;
+    }
+    .navbar button{
+        margin-left: 2%;
+    }
+    .form-control{
+        height: 38px !important;
+    }
+    .nav-link button{
+        margin-left: 185% !important;
+        font-size: 22px;
+    }
+    .navbar button{
+        margin-left: 17%;
+    }
+    #serviceAria .col-md-2{
+        margin-right: 17%;
+    }
+    .fa-2x{
+        font-size: 1rem;
+    }
+    .navbar .nav-link{
+        background: none;
+    }
+
+
+
+
+
+}
+
+
+
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .input-group{
+        width: 75%;
+        margin-left: 22%;
+        flex-wrap: nowrap;
+    }
+    #categoryArea .container ul .sub-menu{
+        right: -266%;
+
+    }
+    #categoryArea .container ul .sub-menu{
+        height: 179%;
+    }
+    #serviceAria .col-md-2{
+        margin-right: 18%;
+    }
+    .navbar .nav-link{
+        background: none;
+    }
+
+
+
+
+
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .input-group{
+        width: 75%;
+        margin-left: 22%;
+    }
+    #categoryArea .col-sm-3 ul li a{
+        font-size: 12px;
+    }
+    .input-group{
+        flex-wrap: nowrap;
+    }
+    .navbar button{
+        margin-left: 27%;
+    }
+    .navbar .nav-link{
+        background: none;
+    }
+    .navbar-nav{
+        margin-left: 20%;
+    }
+
+
+
+
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .input-group{
+        width: 75%;
+        margin-left: 22%;
+        flex-wrap: nowrap;
+    }
+
+
+
+
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+
+}
+
